@@ -7,7 +7,7 @@ function Footer(props) {
 
  
   return( <div>{posts.map(post=>{
-    return  <div><p>{props.language==="Malayalam"?post.title:post.titlem}</p><p>{props.language==="Malayalam"?post.para:post.param}</p></div>
+    return  <div><p>{props.language==="English"?post.title:post.titlem}</p><p>{props.language==="English"?post.para:post.param}</p></div>
 })}</div>)
 
 }
