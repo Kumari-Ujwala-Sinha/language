@@ -10,6 +10,7 @@ function App() {
   );
   function storeLanguageInLocalStorage(language) {
     localStorage.setItem("language", language);
+    window.location.reload(); 
   }
   {/*useEffect(() => {
     localStorage.getItem(language);
