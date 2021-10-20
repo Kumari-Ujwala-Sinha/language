@@ -6,9 +6,9 @@ export const Headers = () => {
     let [language, setLanguage] = useState(
         languageStoredInLocalStorage ? languageStoredInLocalStorage : "English"
       );
-      useEffect(() => {
+    {/*  useEffect(() => {
         setLanguage=localStorage.getItem("language");
-      },[language]);    
+      },[language]); */}   
     return (
         <div>
             <Header language={language} />

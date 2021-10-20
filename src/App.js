@@ -25,6 +25,7 @@ function App() {
           storeLanguageInLocalStorage(language);
         }}
       />
+
       <Header language={language} />
       <Headers/>
       <div class="container">
@@ -38,6 +39,7 @@ function App() {
         </div>
       </div>
       <Footer language={language} />
+      
     </div>
   );
 }
